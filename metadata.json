@@ -1,0 +1,6 @@
+{
+  "name": "مراسم ",
+  "description": "المنصة الأولى لتنظيم الفعاليات، الزواجات، والمؤتمرات مع نخبة مزودي الخدمات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

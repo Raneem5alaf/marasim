@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" width="400" height="180">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@800&amp;display=swap');
+      .logo-text {
+        font-family: 'Baloo Bhaijaan 2', 'Cairo', sans-serif;
+        font-weight: 800;
+        font-size: 96px;
+        fill: #0a0a0c;
+        direction: rtl;
+      }
+    </style>
+  </defs>
+
+  <!-- Pink Accent Dot -->
+  <circle cx="124" cy="32" r="14" fill="#ed2979" />
+
+  <!-- Pink Accent Shape (Rounded top-left corner block) -->
+  <path d="M 86 52 H 112 A 18 18 0 0 1 130 70 V 102 H 86 Z" fill="#ed2979" />
+
+  <!-- Main Wordmark -->
+  <text x="380" y="122" text-anchor="end" class="logo-text">مَراسِم</text>
+</svg>
