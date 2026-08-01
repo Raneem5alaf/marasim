@@ -61,16 +61,7 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Column 3: Secondary & Legal Links */}
           <div>
             <ul className="space-y-1.5 text-xs sm:text-sm font-semibold text-slate-800 tracking-tight">
-              {onOpenVendorModal && (
-                <li>
-                  <button
-                    onClick={onOpenVendorModal}
-                    className="hover:text-pink-600 transition-colors text-right cursor-pointer"
-                  >
-                    تواصل معنا / تسجيل المزودين
-                  </button>
-                </li>
-              )}
+
               <li>
                 <button
                   onClick={() => setActiveModal('refund')}
