@@ -58,7 +58,7 @@ export const ServicesSection: React.FC<ServicesProps> = ({ onSelectServiceForQuo
                   alt={service.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent" />
 
                 {/* Floating Icon */}
                 <div className="absolute top-4 right-4 w-12 h-12 rounded-2xl bg-white/95 backdrop-blur-md text-[#ed2979] flex items-center justify-center shadow-md group-hover:bg-[#ed2979] group-hover:text-white transition-colors duration-300">
@@ -108,7 +108,7 @@ export const ServicesSection: React.FC<ServicesProps> = ({ onSelectServiceForQuo
                 alt={selectedService.title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-transparent" />
               
               <button
                 onClick={() => setSelectedService(null)}
@@ -148,15 +148,7 @@ export const ServicesSection: React.FC<ServicesProps> = ({ onSelectServiceForQuo
                 </div>
               </div>
 
-              {/* Action Buttons */}
-              <div className="pt-4 border-t border-gray-100 flex justify-end">
-                <button
-                  onClick={() => setSelectedService(null)}
-                  className="w-full sm:w-auto px-8 py-3 rounded-xl bg-[#0A0A0B] hover:bg-black text-white font-bold text-sm transition-colors text-center cursor-pointer"
-                >
-                  إغلاق النافذة
-                </button>
-              </div>
+
             </div>
 
           </div>
